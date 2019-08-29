@@ -5,12 +5,23 @@
   "main": "lib/index.js",
   "types": "",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json --fix"
   },
   "author": "Ranotronarison Nomena",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.7.2",
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.2"
-  }
+  },
+  "keywords": [
+    "users",
+    "malagasy",
+    "generator"
+  ]
 }
