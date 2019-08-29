@@ -6,7 +6,7 @@ import usersList from './utils/usersList';
  * @param {number} numberOfUsers : Number of users to generate
  * @returns {Array} Users array
  */
-export default (numberOfUsers: number = 20) => {
+export const userGenerator = (numberOfUsers: number = 20) => {
   const firstnames = usersList.firstnames;
   const lastnames = usersList.lastnames;
   let usersArray: object[] = [];
