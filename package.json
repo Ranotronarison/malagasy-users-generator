@@ -12,6 +12,10 @@
   },
   "author": "Ranotronarison Nomena",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ranotronarison/malagasy-users-generator.git"
+  },
   "devDependencies": {
     "@types/node": "^12.7.2",
     "prettier": "^1.18.2",
