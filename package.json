@@ -1,0 +1,16 @@
+{
+  "name": "malagasy-users-generator",
+  "version": "1.0.1",
+  "description": "Generate random malagasy users.",
+  "main": "lib/index.js",
+  "types": "",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "author": "Ranotronarison Nomena",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "typescript": "^3.6.2"
+  }
+}
