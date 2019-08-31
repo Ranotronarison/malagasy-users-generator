@@ -25,7 +25,3 @@ export const userGenerator = (numberOfUsers: number = 10) => {
  */
 
  export const phoneNumber = new PhoneNumber();
-
-
-
- console.log(phoneNumber)
