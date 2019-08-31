@@ -1,6 +1,6 @@
 {
   "name": "malagasy-users-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generate random malagasy users.",
   "main": "lib/index.js",
   "types": "",
