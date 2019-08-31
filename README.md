@@ -1,6 +1,6 @@
 # malagasy-users-generator
 
-Generate random malagasy users
+Generate random malagasy users and phone number.
 
 ## Installing
 
@@ -16,27 +16,15 @@ yarn add --dev malagasy-users-generator
 
 ## Usage
 
-An example of basic usage with reactjs :
+An example of basic usage :
 
 ```js
-import React from "react";
-import ReactDOM from "react-dom";
-import {userGenerator} from "malagasy-users-generator"
+import {phoneNumber,userGenerator} from 'malagasy-users-generator'
 
-function App() {
-  const usersList = userGenerator(4)
-  return (
-    <div className="App">
-      <ul>
-        {
-            usersList.map((user,index) => 
-            (<li key={index}>{user.firstname} - {user.lastname} - {user.phone} - {user.age}</li>)
-        }
-      </ul>
-    </div>
-  );
-}
+// generate an array containing 5 random malagasy users
+// generate 10 users if no number parameter is provided
+const users = userGenerator(5)
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+// generate a single random malagasy phone number
+const phone = phoneNumber
 ```

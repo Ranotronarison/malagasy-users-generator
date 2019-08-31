@@ -1,12 +1,13 @@
 import User from './utils/user';
 import usersList from './utils/usersList';
+import PhoneNumber from './utils/phoneNumber';
 
 /**
  *
  * @param {number} numberOfUsers : Number of users to generate
  * @returns {Array} Users array
  */
-export const userGenerator = (numberOfUsers: number = 20) => {
+export const userGenerator = (numberOfUsers: number = 10) => {
   const firstnames = usersList.firstnames;
   const lastnames = usersList.lastnames;
   let usersArray: object[] = [];
@@ -22,4 +23,9 @@ export const userGenerator = (numberOfUsers: number = 20) => {
 /**
  * Tools for generating single malagasy phone number
  */
-export * from './utils/phoneNumber';
+
+ export const phoneNumber = new PhoneNumber();
+
+
+
+ console.log(phoneNumber)

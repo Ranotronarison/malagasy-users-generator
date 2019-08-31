@@ -7,7 +7,7 @@ export default class PhoneNumber {
   /**
    * @returns {string} Return malagasy phone number
    */
-  public generate(): string {
+  private generate(): string {
     // patter: +261 aa bb ccc dd
     const aa = Math.floor(Math.random() * (35 - 32) + 32);
     const bb = this.oneZeroPrepend(Math.floor(Math.random() * 99));
