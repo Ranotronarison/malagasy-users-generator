@@ -1,5 +1,7 @@
 import PhoneNumber from './phoneNumber';
 
+
+
 export default class User {
   public firstname: string;
   public lastname: string;

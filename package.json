@@ -1,12 +1,13 @@
 {
   "name": "malagasy-users-generator",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Generate random malagasy users.",
   "main": "lib/index.js",
   "types": "",
   "scripts": {
     "test": "mocha -r ts-node/register 'tests/**/*.test.ts'",
     "build": "tsc",
+    "watch": "tsc --watch",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json --fix"
   },
@@ -35,5 +36,6 @@
     "users",
     "malagasy",
     "generator"
-  ]
+  ],
+  "dependencies": {}
 }
