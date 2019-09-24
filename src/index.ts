@@ -1,7 +1,6 @@
 import PhoneNumber from './utils/phoneNumber';
 import User from './utils/user';
 import usersList from './utils/usersList';
-import PhoneNumber from './utils/phoneNumber';
 
 /**
  *
