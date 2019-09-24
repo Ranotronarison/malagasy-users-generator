@@ -1,3 +1,4 @@
+import PhoneNumber from './utils/phoneNumber';
 import User from './utils/user';
 import usersList from './utils/usersList';
 
@@ -22,4 +23,5 @@ export const userGenerator = (numberOfUsers: number = 20) => {
 /**
  * Tools for generating single malagasy phone number
  */
-export * from './utils/phoneNumber';
+
+export const phoneNumber = new PhoneNumber();

@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "",
   "scripts": {
-    "test": "",
+    "test": "mocha -r ts-node/register 'tests/**/*.test.ts'",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json --fix"
@@ -17,8 +17,14 @@
     "url": "https://github.com/Ranotronarison/malagasy-users-generator.git"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-typescript": "^7.6.0",
+    "@babel/register": "^7.6.2",
+    "@types/chai": "^4.2.3",
+    "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
     "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
     "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.2"
