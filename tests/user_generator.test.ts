@@ -7,6 +7,7 @@ describe('test users generator', () => {
         expect(usersList).to.be.an('array')
     })
     it('Should contain keys', () => {
-        expect(usersList[0]).to.contain.keys(['firstname','lastname','age','phoned'])
+        console.log(usersList[0])
+        expect(usersList[0]).to.contain.keys(['firstname','lastname','age','phone'])
     })
 })
